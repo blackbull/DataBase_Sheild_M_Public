@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<DB_LoaderOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BD_Anten>
+    <string> Data Source=CA;Initial Catalog=MAIN_Sheild_M;Persist Security Info=True;User ID=sa;Password=sa</string>
+    <string> Data Source=Bykov;Initial Catalog=MAIN_Sheild_M;Persist Security Info=True;User ID=sa;Password=sa</string>
+  </BD_Anten>
+  <SelectedBD_Anten> Data Source=Bykov;Initial Catalog=MAIN_Sheild_M;Persist Security Info=True;User ID=sa;Password=sa</SelectedBD_Anten>
+  <BD_Measurement>
+    <string>Data Source=CA;Initial Catalog=Sheild_M_measurement;Persist Security Info=True;User ID=sa;Password=sa</string>
+    <string>Data Source=Bykov;Initial Catalog=Sheild_M_measurement;Persist Security Info=True;User ID=sa;Password=sa</string>
+  </BD_Measurement>
+  <SelectedBD_Measurement>Data Source=Bykov;Initial Catalog=Sheild_M_measurement;Persist Security Info=True;User ID=sa;Password=sa</SelectedBD_Measurement>
+</DB_LoaderOptions>

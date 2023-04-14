@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Reports</name>
+    </assembly>
+    <members>
+        <member name="M:Reports.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Reports.ReportsDocumentClass">
+            <summary>
+            Базовый класс для объектов формирования протокола
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass._pdfwriter">
+            <summary>
+            Writer документа
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.mm">
+            <summary>
+            Размер мм в кеглях
+            </summary>
+        </member>
+        <member name="P:Reports.ReportsDocumentClass.IsNeedAttachment">
+            <summary>
+            Необходимо формировать приложения в протоколе  
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.PageEventHandler">
+            <summary>
+            обработчик событий при создании страниц документа
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.SignList">
+            <summary>        
+            Список подписей
+            </summary>
+        </member>
+        <member name="M:Reports.ReportsDocumentClass.AddSigns(iTextSharp.text.Font)">
+            <summary>
+            Добавление подписей в документ
+            </summary>
+            <param name="font"></param>
+        </member>
+        <member name="P:Reports.ReportsDocumentClass.HeaderTitle">
+            <summary>
+            Верхний колонтитул титульной страницы
+            </summary>
+        </member>
+        <member name="P:Reports.ReportsDocumentClass.FooterTitle">
+            <summary>
+            Нижний колонтитул страницы
+            </summary>
+        </member>
+        <member name="P:Reports.ReportsDocumentClass.NeedListNumbers">
+            <summary>
+            Печатать количество листов и текущий лист в колонтитулах
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.BaseFontText">
+            <summary>
+            Базовый шрифт для текста
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.FontCaptionText">
+            <summary>
+            Шрифт заголовков
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.FontText">
+            <summary>
+            Шрифт обычного текста
+            </summary>
+        </member>
+        <member name="P:Reports.ReportsDocumentClass.ProtocolNumberFull">
+            <summary>
+            полный Номер протокола
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.ProtocolPrefix">
+            <summary>
+            префикс протокола
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.ProtocolNumber">
+            <summary>
+            Номер протокола
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.ProtocolName">
+            <summary>
+            Заголовок протокола
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsDocumentClass.CountOfAttachments">
+            <summary>
+            Количество приложение в документе
+            </summary>
+        </member>
+        <member name="M:Reports.ReportsDocumentClass.#ctor">
+            <summary>
+            Конструктор по умолчанию
+            </summary>
+        </member>
+        <member name="M:Reports.ReportsDocumentClass.Close">
+            <summary>
+            Закрытие и сохранение документа
+            </summary>
+        </member>
+        <member name="M:Reports.ReportsDocumentClass.Create">
+            <summary>
+            Создание документа
+            </summary>
+        </member>
+        <member name="T:Reports.ReportsPdfPageEventHelper">
+            <summary>
+            Вспомогательный класс обработки сообщений при формировании документа
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsPdfPageEventHelper.IsNeedAttachment">
+            <summary>
+            Необходимо формировать приложения в протоколе
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsPdfPageEventHelper.mm">
+            <summary>
+            Размер мм в кеглях
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsPdfPageEventHelper.HeaderTitle">
+            <summary>
+            Верхний колонтитул страницы
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsPdfPageEventHelper.FooterTitle">
+            <summary>
+            Нижний колонтитул страницы
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsPdfPageEventHelper.ProtocolNumber">
+            <summary>
+            полное имя протокола
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsPdfPageEventHelper.NeedListNumbers">
+            <summary>
+            Печатать количество листов и текущий лист в колонтитулах
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsPdfPageEventHelper.cb">
+            <summary>
+            Объект байтконтента документа
+            </summary>
+        </member>
+        <member name="F:Reports.ReportsPdfPageEventHelper.template">
+            <summary>
+            Шаблон вставляемый в документ
+            </summary>
+        </member>
+        <member name="M:Reports.ReportsPdfPageEventHelper.OnOpenDocument(iTextSharp.text.pdf.PdfWriter,iTextSharp.text.Document)">
+            <summary>
+            Обработка события при открытии документа
+            </summary>
+            <param name="writer"></param>
+            <param name="document"></param>
+        </member>
+        <member name="M:Reports.ReportsPdfPageEventHelper.OnStartPage(iTextSharp.text.pdf.PdfWriter,iTextSharp.text.Document)">
+            <summary>
+            Обработка события при начале формирования страницы документа
+            </summary>
+            <param name="writer"></param>
+            <param name="document"></param>
+        </member>
+        <member name="M:Reports.ReportsPdfPageEventHelper.OnEndPage(iTextSharp.text.pdf.PdfWriter,iTextSharp.text.Document)">
+            <summary>
+            Обработка события при окончании формирования страницы документа
+            </summary>
+            <param name="writer"></param>
+            <param name="document"></param>
+        </member>
+        <member name="M:Reports.ReportsPdfPageEventHelper.OnCloseDocument(iTextSharp.text.pdf.PdfWriter,iTextSharp.text.Document)">
+            <summary>
+            Обработка события при закрытии документа
+            </summary>
+            <param name="writer"></param>
+            <param name="document"></param>
+        </member>
+        <member name="T:Reports.SignatureClass">
+            <summary>
+            Класс подписи документа протокола
+            </summary>
+        </member>
+        <member name="M:Reports.SignatureClass.#ctor">
+            <summary>
+            Конструктор объекта по умолчанию
+            </summary>
+        </member>
+        <member name="M:Reports.SignatureClass.#ctor(System.String,System.String,iTextSharp.text.Image)">
+            <summary>
+            Конструктор объекта подписи с параметрами
+            </summary>
+            <param name="personPost">Должность</param>
+            <param name="personName">И.О. Фамилия</param>
+            <param name="jpeg_new">скан подписи для автоматической вставки</param>
+        </member>
+        <member name="F:Reports.SignatureClass.PersonName">
+            <summary>
+            Фамилия И.О. подписующего
+            </summary>
+        </member>
+        <member name="F:Reports.SignatureClass.PersonPost">
+            <summary>
+            Должность подписующего
+            </summary>
+        </member>
+        <member name="F:Reports.SignatureClass.jpeg">
+            <summary>
+            Скан подписи
+            </summary>
+        </member>
+        <member name="M:Reports.SignatureClass.Add2DocumentOLD(iTextSharp.text.Document,iTextSharp.text.Font)">
+            <summary>
+            Добавление в документ блока подписи
+            </summary>
+            <param name="document">Документ в который производится вставка</param>
+            <param name="font">Шрифт</param>
+        </member>
+        <member name="M:Reports.SignatureClass.Add2Document(iTextSharp.text.Document,iTextSharp.text.Font)">
+            <summary>
+            Добавление в документ блока подписи
+            </summary>
+            <param name="document">Документ в который производится вставка</param>
+            <param name="font">Шрифт</param>
+        </member>
+        <member name="T:Reports.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Reports.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Reports.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Reports.Properties.Resources.srms">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Reports.Properties.Resources.srms_png">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Reports.Properties.Resources.РФЯЦ">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ResultOptionsClassLibrary.AdjustOptionsClass" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgIAAAAAAAEABAAIgAAAAAgAAIABCAAAABBCAQA=</HashCode>
+      <FileName>AdjustOptionsClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.AnechoicChamberClass" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnechoicChamberClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.AnechoicClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAgAAAAAgAAAACAA=</HashCode>
+      <FileName>AnechoicClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.AntennOptionsClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgYAAAAAAAAgQAAEQAABBAQAAAAAAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>AntennOptionsClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.CableClass" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CableClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.CableOptionsClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAAgAAEAAAA=</HashCode>
+      <FileName>CableOptionsClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.Cables_Sheild_M_Class" Collapsed="true">
+    <Position X="15.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Cables_Sheild_M_Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.CalculateResultSumRaznClass" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CalculateResultSumRaznClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.PointDouble" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Calculation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.CalculationClass" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgBgAIwAAYQIAAAAIABQhAMDICCCAFiCDAOjgsOAgEY=</HashCode>
+      <FileName>Calculation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.MetodDrobleniaClass" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Calculation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.MetodKoordinatClass" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.ComplexClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAACAQAIAE4AUASCAAAAAEgIBABAAQAAAABiA=</HashCode>
+      <FileName>ComplexClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.MathComplex" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUACAAAAAAAAAAAAgAAEQAAAAACAAIAQAAAAACAJAAA=</HashCode>
+      <FileName>ComplexClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.ListEventClass&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEIAAEAAAAAAAAAQAAAABAQAAAAAAAAECAAAAAhQMQA=</HashCode>
+      <FileName>ListEventClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.MainOptionsClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAACAAAAAQAAAQAAAABAIAAAgAAABI=</HashCode>
+      <FileName>MainOptionsClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.MeasurementTypeDescription" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAIAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>MeasurementTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.MistakeClass" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAIAAAQAQEAEAAAAAAAAAAADAAAAAAAgAAQAAAA=</HashCode>
+      <FileName>MistakeClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.MeasurementParametrsClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBgAAAABAAAAAAAAAAAAAAAEAAAABACBAAAEFAAACHA=</HashCode>
+      <FileName>ParametersClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.ResultElementClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAQAAQAAAAAAAAAAgAAAAABA=</HashCode>
+      <FileName>ResultElementClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.SheildM_GlobalParametrsClass" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAEAAAAAAAAAAAAAAAAAAAABAAAAACAAAAA=</HashCode>
+      <FileName>SheildM_GlobalParametrsClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.TA_OptionsClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAAAEAAAAAAAAAAAAAAAAAAJAAAACAAAAgAAAAAAA=</HashCode>
+      <FileName>TA_OptionsClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.ZVB14_ParametrsClass" Collapsed="true">
+    <Position X="15.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAA=</HashCode>
+      <FileName>ZVB14_ParametrsClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultOptionsClassLibrary.ZVB_Parametrs_ElementClass" Collapsed="true">
+    <Position X="15.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAACAAQAAAAQAAAAAAAQAAAAAACAAAAEAAA=</HashCode>
+      <FileName>ZVB14_ParametrsClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ResultOptionsClassLibrary.ICalculationResults" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAIABoACAAAAAAAAagAEAAgAAARAEEAAJIA=</HashCode>
+      <FileName>ICalculationResults.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ResultOptionsClassLibrary.SumRaznEnum" Collapsed="true">
+    <Position X="22" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAIA=</HashCode>
+      <FileName>CalculateResultSumRaznClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ResultOptionsClassLibrary.MeasurementTypeEnum" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAiAAAAAgAAAAAAQAEA=</HashCode>
+      <FileName>MeasurementTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ResultOptionsClassLibrary.CalculationResultTypeEnum" Collapsed="true">
+    <Position X="16.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIAAAAAAAAAAAAAAUAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>MeasurementTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ResultOptionsClassLibrary.CalculationComponentTypeEnum" Collapsed="true">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAACAAAABAAAAAAQAAA=</HashCode>
+      <FileName>MeasurementTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ResultOptionsClassLibrary.MistakeTypeEnum" Collapsed="true">
+    <Position X="20.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MistakeClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

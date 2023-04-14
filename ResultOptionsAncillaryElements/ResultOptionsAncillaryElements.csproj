@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA4B5CF7-7B8B-4EE8-951A-A5E259DCF060}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ResultOptionsClassLibrary</RootNamespace>
+    <AssemblyName>ResultOptionsClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>none</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdjustOptionsClass.cs" />
+    <Compile Include="AnechoicChamberClass.cs" />
+    <Compile Include="AnechoicClass.cs" />
+    <Compile Include="AntennOptionsClass.cs" />
+    <Compile Include="CableClass.cs" />
+    <Compile Include="CableOptionsClass.cs" />
+    <Compile Include="Cables_Sheild_M_Class.cs" />
+    <Compile Include="CalculateResultSumRaznClass.cs" />
+    <Compile Include="Calculation.cs" />
+    <Compile Include="ComplexClass.cs" />
+    <Compile Include="ICalculationResults.cs" />
+    <Compile Include="ListEventClass.cs" />
+    <Compile Include="MainOptionsClass.cs" />
+    <Compile Include="MeasurementTypeEnum.cs" />
+    <Compile Include="MistakeClass.cs" />
+    <Compile Include="ParametersClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultElementClass.cs" />
+    <Compile Include="SheildM_GlobalParametrsClass.cs" />
+    <Compile Include="TA_OptionsClass.cs" />
+    <Compile Include="ZVB14_ParametrsClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Analizer_NEW\ZVBOptionsClassLibrary\ZVBOptionsClassLibrary.csproj">
+      <Project>{C07127DE-9DBA-4D22-8353-CD96DBC905FF}</Project>
+      <Name>ZVBOptionsClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AncillaryControls\GeneralInterfaces\GeneralInterfaces.csproj">
+      <Project>{8DB233E1-3712-4FFD-95E0-A57560E4EE3A}</Project>
+      <Name>GeneralInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

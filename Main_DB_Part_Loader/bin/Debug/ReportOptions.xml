@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ReportOptionsClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProtocolPrefix>3412</ProtocolPrefix>
+  <ProtocolNumber>8</ProtocolNumber>
+  <ResultDescription>ngcfhfghgfvnhfgjnfgjf</ResultDescription>
+  <Signs />
+  <OpenProtocol>true</OpenProtocol>
+  <AltProtocolName>false</AltProtocolName>
+  <NeedAdditionalData>true</NeedAdditionalData>
+  <NeedHeader>false</NeedHeader>
+  <NeedError>false</NeedError>
+  <NeedAnten>false</NeedAnten>
+  <NeedTable>true</NeedTable>
+  <NeedSUMTable>true</NeedSUMTable>
+  <NeedMainTable>true</NeedMainTable>
+  <NeedCrossTable>true</NeedCrossTable>
+  <NeedMaxMin>false</NeedMaxMin>
+  <NeedGraph>true</NeedGraph>
+  <NeedDecart>true</NeedDecart>
+  <NeedPolar>true</NeedPolar>
+  <NeedSum>true</NeedSum>
+  <NeedMainCross>false</NeedMainCross>
+</ReportOptionsClass>

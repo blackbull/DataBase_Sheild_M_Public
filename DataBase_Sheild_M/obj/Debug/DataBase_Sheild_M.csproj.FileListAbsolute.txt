@@ -1,0 +1,9 @@
+C:\My_PC_Files\ALL Projects\Work_Projects\Sheild_M_Solution\DataBase_Sheild_M\DataBase_Sheild_M\bin\Debug\DataBase_Sheild_M.dll.config
+C:\My_PC_Files\ALL Projects\Work_Projects\Sheild_M_Solution\DataBase_Sheild_M\DataBase_Sheild_M\bin\Debug\DataBase_Sheild_M.dll
+C:\My_PC_Files\ALL Projects\Work_Projects\Sheild_M_Solution\DataBase_Sheild_M\DataBase_Sheild_M\bin\Debug\DataBase_Sheild_M.pdb
+C:\My_PC_Files\ALL Projects\Work_Projects\Sheild_M_Solution\DataBase_Sheild_M\DataBase_Sheild_M\obj\Debug\DataBase_Sheild_M.csproj.AssemblyReference.cache
+C:\My_PC_Files\ALL Projects\Work_Projects\Sheild_M_Solution\DataBase_Sheild_M\DataBase_Sheild_M\obj\Debug\DataBase_Sheild_M.Properties.Resources.resources
+C:\My_PC_Files\ALL Projects\Work_Projects\Sheild_M_Solution\DataBase_Sheild_M\DataBase_Sheild_M\obj\Debug\DataBase_Sheild_M.csproj.GenerateResource.cache
+C:\My_PC_Files\ALL Projects\Work_Projects\Sheild_M_Solution\DataBase_Sheild_M\DataBase_Sheild_M\obj\Debug\DataBase_Sheild_M.csproj.CoreCompileInputs.cache
+C:\My_PC_Files\ALL Projects\Work_Projects\Sheild_M_Solution\DataBase_Sheild_M\DataBase_Sheild_M\obj\Debug\DataBase_Sheild_M.dll
+C:\My_PC_Files\ALL Projects\Work_Projects\Sheild_M_Solution\DataBase_Sheild_M\DataBase_Sheild_M\obj\Debug\DataBase_Sheild_M.pdb
